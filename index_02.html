@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Client Testing</title>
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/flexbox.css">
+    <link href="css/et-line-icons.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />    
+    <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />    
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script> 
+	<script src="js/animated_bg.js"></script>
+	<script>
+	jQuery(document).ready(function(){
+
+		$('.animated_bg2').animatedBG({
+			colorSet: ['#c4bdb7','#898480','#a4a4a4','#8c7e7e','#c2c1bc','#8c8973','#adaeaf','#dddddd','#b3b2a3','#8c7e7e'],
+			speed: 200
+		});
+
+	});
+</script>
+</head>
+
+
+
+
+
+<body>
+	
+	    <section>
+		    <div class="container">
+	            <div class="row">
+		            <div align="center" class="col-sm-10 col-sm-offset-2 text-center">  
+						<header>
+							<h1>Client Testing</h1>
+						</header>
+				    </div>    
+	    		</div>
+			</div>
+		</section>
+
+	    <section class="animated_bg2">
+		    <div class="container">
+	            <div class="row">
+		            <div align="center" class="col-sm-10 col-sm-offset-2 text-center">  
+                    	<div class="banner" style="padding: 50px 0 50px 0;">
+							<img class="logo" src="img/office.svg" alt="City">
+							<h1 class="headline"><a href="#" style="color: #000000;"><br>Enter</a></h1>
+							<span class="tagline"><br><br>Hello (name), <br>please click "Enter" to check out how your <br>site is doing as of Friday, February 16, 2018.</span>
+						</div>
+				    </div>    
+	    		</div>
+			</div>
+		</section>	    
+
+	    <section id="contact" class="bg-secondary">
+		    <div class="container">
+	            <div class="row">
+		            <div align="center" class="col-sm-10 col-sm-offset-2 text-center">  
+	                    <h1 class="headline">Contact</h1>
+	                    <p>
+	                    Feel free to send me an email, call me, or fill out the form below.<br>I am always willing to listen and help out.<br>
+						<br><img src="img/icon_mail.png" alt="City" style="width: 25px; padding: 10px 0 10px 0;"></span><br>Peter.Adam.Bialecki@gmail.com
+						<br><img src="img/icon_phone.png" alt="City"  style="width: 25px; padding: 10px 0 10px 0;"></span><br>847.361.2832
+						</p>          	
+				        <div align="center" class="col-sm-8 col-sm-offset-2">
+				          	<form action="https://formspree.io/peter.adam.bialecki@gmail.com" method="post" name="contact_form">
+					            <div class="group">
+					              	<input name="Name" required="" type="text"><span class="highlight"></span><span class="bar"></span><label class="text-white">Name</label>
+					            </div>
+					            <div class="group">
+					              	<input name="Email" required="" type="email"><span class="highlight"></span><span class="bar"></span><label class="text-white">Email</label>
+					            </div>
+					            <div class="group">
+					              	<textarea name="Message" required=""></textarea><span class="highlight"></span><span class="bar"></span><label class="text-white">Message</label>
+					            </div>
+					            <!-- Formspree Page Redirect -->
+					            <input type="hidden" name="_next" value="http://www.peteadambialecki.com" />
+					            <!-- End Formspree Page Redirect -->
+					            <!-- Spam Catcher -->
+					            <input type="text" name="_gotcha" style="display:none" /> 
+					            <!-- End Spam Catcher -->						            
+						        <div class="btn-group dropup">
+						            <input id="sendMessage" name="sendMessage" type="submit" value="Send" class="btn btn-secondary btn-xl">
+						        </div>
+				          	</form>
+				        </div>
+				    </div>    
+	    		</div>
+			</div>
+		</section>
+
+	    <section>
+		    <div class="container" style="padding: 0 0 20px 0;">
+	            <div class="row">
+		            <div align="center" class="col-sm-10 col-sm-offset-2 text-center">  
+						<header>
+							<span>&copy; 2018 Copyright Pete Adam Bialecki</span>
+						</header>
+				    </div>    
+	    		</div>
+			</div>
+		</section>
+
+
+	
+</body>
+</html>
